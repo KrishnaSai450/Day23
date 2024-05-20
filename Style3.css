@@ -1,0 +1,116 @@
+#parent_div{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+#parent_div2{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: space-evenly; 
+}
+#parent_div3{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: space-evenly; 
+}
+
+#parent_div4{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: space-evenly; 
+}
+
+#parent_div5{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: space-evenly; 
+}
+#parent_div>div{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+#parent_div2>div{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parent_div3>div{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parent_div4>div{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parent_div5>div{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+h2{
+    width: 300px;
+    overflow: auto;
+    height: 100px;
+    text-align: center;
+}
+p{
+    width: 300px;
+    overflow: auto;
+    height: 100px;
+    text-align: center;
+}
+input{
+    background-color: red;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    color: white;
+}
+
+.pagination{
+    position: fixed;
+    top: 0%;
+    left: 45%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: aquamarine;
+  }
+
+/* .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+} */
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
